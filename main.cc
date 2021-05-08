@@ -13,7 +13,7 @@ void step(void* game) {
 int main(int, char**) {
   Game::Config config;
 
-  config.graphics.title = "%{NAME}";
+  config.graphics.title = "___NAME___";
   config.graphics.width = 512;
   config.graphics.height = 448;
   config.graphics.scale = 2;

@@ -8,7 +8,7 @@ CONTENT=$(wildcard content/*)
 ICONS=icon.png
 BUILDDIR=$(CROSS)output
 OBJECTS=$(patsubst %.cc,$(BUILDDIR)/%.o,$(SOURCES))
-NAME=%{REPO_NAME}
+NAME=___REPO_NAME___
 VERSION=$(shell git describe --tags --dirty)
 
 CC=$(CROSS)g++

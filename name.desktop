@@ -2,8 +2,8 @@
 
 Type=Application
 Version=1.0
-Name=%{NAME}
+Name=___NAME___
 Terminal=false
 Icon=icon
-Exec=%{REPO_NAME}
+Exec=___REPO_NAME___
 Categories=Game;
