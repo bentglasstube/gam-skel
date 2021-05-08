@@ -1,0 +1,9 @@
+[Desktop Entry]
+
+Type=Application
+Version=1.0
+Name=%{NAME}
+Terminal=false
+Icon=icon
+Exec=%{REPO_NAME}
+Categories=Game;
