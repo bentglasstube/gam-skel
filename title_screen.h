@@ -1,6 +1,7 @@
 #pragma once
 
 #include "screen.h"
+#include "text.h"
 
 class TitleScreen : public Screen {
   public:
@@ -13,5 +14,7 @@ class TitleScreen : public Screen {
     Screen* next_screen() const override;
 
   private:
+
+    Text text_;
 
 };
