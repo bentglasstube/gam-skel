@@ -4,9 +4,9 @@ ifeq ($(UNAME), Windows)
 endif
 
 NAME=___REPO_NAME___
-GAMDEPS=audio game grapihcs input screen text
+GAMDEPS=audio game graphics input screen text
 
-SOURCES=$(wildcard *.cc) $(patsubst %,game/%.cc,$(GAMDEPS))
+SOURCES=$(wildcard *.cc) $(patsubst %,gam/%.cc,$(GAMDEPS))
 RENDERS=$(patsubts resources/%.ase,content/%.png,$(wildcard resources/*.ase))
 CONTENT=$(wildcard content/*) $(RENDERS)
 ICONS=icon.png
