@@ -60,7 +60,7 @@ run: $(EXECUTABLE)
 renders: $(RENDERS)
 
 content/%.png: resources/%.ase
-	asperite --batch $< --save-as $@
+	aseprite --batch $< --save-as $@
 
 $(EXECUTABLE): $(OBJECTS) $(EXTRA) $(CONTENT)
 	$(CXX) $(CPPFLAGS) $(LDFLAGS) -o $@ $(OBJECTS) $(EXTRA) $(LDLIBS)
